@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bank</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        body{
+            background-image: url("bankbackground.jpg");
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        .bg{
+            background-color: rgb(255, 255, 255,0.8);
+        }
+        input:focus,
+        button:focus{
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+<body>
+    
+<!-- ----------------------------------------------------------- -->
+
+    <section class="py-5">
+        <div class="container-md">
+            <div class="row">
+                    <div class="col-12">
+                            <input type="text" placeholder="Enter your name" class="form-control my-1" id="userName" name="usreName">
+                    </div>
+                    <div class="col-md-6">
+                            <input type="text" placeholder="Enter your ID" class="form-control my-1" id="userId" name="userId">
+                    </div>
+                    <div class="col-md-6">
+                            <input type="text" placeholder="Enter your Balance" class="form-control my-1" id="userBalance" name="userBalance">
+                    </div>
+            </div>
+            <button class="btn btn-info my-1" id="addBtn">add client</button>
+        </div>
+        <div class="container-md" id="conShow">
+            
+        </div>
+    </section>
+
+    <!-- ------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+    <!-- bandle -->
+    <script src="bundle.js"></script>
+    
+</body>
+</html>
